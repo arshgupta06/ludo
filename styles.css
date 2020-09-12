@@ -2,7 +2,7 @@ body {
   background: url('bg.png') no-repeat center center fixed;
 -webkit-background-size: cover;
 background-size: 100% 100%;
-font-family: 'Aladin', cursive;
+
 text-align: center;
 
 
@@ -24,3 +24,41 @@ background: #fff;
     justify-content: center;
   align-items: center;
 }
+
+/* STRIP1 */
+.strip1{
+  background: #000;
+  text-align: left;
+  padding: 0.3rem;
+}
+.logo {
+  height: 3rem;
+
+}
+/* STRIP1 END */
+
+/* STRIP2 */
+.strip2{
+
+  padding: 0.5rem 0.5rem 0.1rem;
+  /* padding-bottom: 0; */
+  background: yellow;
+}
+
+/* STRIP2 END */
+
+/* STRIP3 */
+.strip3{
+
+
+  background: red;
+}
+.strip3-inner{
+
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  /* padding-bottom: 0; */
+  background: green;
+}
+
+/* STRIP3 END */
