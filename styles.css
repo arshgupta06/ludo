@@ -23,16 +23,19 @@ background: #fff;
   display: flex;
     justify-content: center;
   align-items: center;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
 }
 
 /* STRIP1 */
 .strip1{
-  background: #000;
+  background: #941c4c;
   text-align: left;
   padding: 0.3rem;
 }
 .logo {
   height: 3rem;
+  width: 10rem;
 
 }
 /* STRIP1 END */
@@ -42,7 +45,7 @@ background: #fff;
 
   padding: 0.5rem 0.5rem 0.1rem;
   /* padding-bottom: 0; */
-  background: yellow;
+  color: #941c4c;
 }
 
 /* STRIP2 END */
@@ -51,14 +54,14 @@ background: #fff;
 .strip3{
 
 
-  background: red;
+  background: 	#fffdd0;
 }
 .strip3-inner{
 
   margin-top: 5rem;
   margin-bottom: 2rem;
   /* padding-bottom: 0; */
-  background: green;
+  background: red;
 }
 
 /* STRIP3 END */
