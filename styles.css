@@ -11,7 +11,7 @@ text-align: center;
   height: 27em;
   width: 25em;
 
-  background: 	#fffdd0;
+  background: 	#FFFDD0;
   border-radius: 10px;
   position: relative;
   text-align: center;
@@ -20,7 +20,7 @@ text-align: center;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .container {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
     justify-content: center;
   align-items: center;
@@ -56,21 +56,35 @@ text-align: center;
 .strip3{
 text-align: center;
 
-  background: 	#fffdd0;
+
 }
 .strip3-inner{
-   height:60%;
+   width: auto;
   margin-top: 4rem;
   margin-bottom: 3rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   /* padding-bottom: 0; */
   background: red;
-  margin-left: 0.2rem;
-  margin-right: 0.2rem;
-  padding-top: 2rem;
-  padding-Bottom: 1.5rem;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  padding-top: 1.5rem;
+  border-radius:5px;
+border-style: double;
+  color: #fff;
 }
 .b1 {
   background-color: #12ee04;
-  margin: 3rem;
+  margin: 1rem;
+}
+.b2 {
+  background-color: #7c7c7b;
+  margin: 1rem;
 }
 /* STRIP3 END */
+h4{
+  color: #12ee04;
+}
+h5{
+  color: #fff;
+}
