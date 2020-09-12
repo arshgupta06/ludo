@@ -34,9 +34,6 @@ hr {
 
 /* Id Elements */
 .jumbotron {
-  /* background: #283c86;
-  background: -webkit-linear-gradient(to left, #45a247, #283c86);
-  background: linear-gradient(to left, #45a247, #283c86); */
   background: linear-gradient(rgba(69, 162, 71,0),rgba(0, 40, 60, 0)),url(bg.png);
   -webkit-background-size: cover;
   background-size: cover;
