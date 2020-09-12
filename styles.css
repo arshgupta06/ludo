@@ -9,7 +9,7 @@ text-align: center;
 }
 .box {
   height: 27em;
-  width: 25em;
+  width: 20em;
 
   background: 	#FFFDD0;
   border-radius: 10px;
@@ -65,13 +65,14 @@ text-align: center;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   /* padding-bottom: 0; */
-  background: red;
+  background: #FF4500;
   margin-left: 0.4rem;
   margin-right: 0.4rem;
   padding-top: 1.5rem;
   border-radius:5px;
 border-style: double;
   color: #fff;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .b1 {
   background-color: #12ee04;
