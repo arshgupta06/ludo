@@ -5,16 +5,18 @@ background-size: 100% 100%;
 font-family: 'Aladin', cursive;
 text-align: center;
 
-color: #fff;
+
 }
 .box {
-  height: 100px;
-  width: 200px;
-  background: #fff;
-  padding: 50px;
+  height: 20em;
+  width: 20em;
+background: #fff;
+
   border-radius: 10px;
   position: relative;
   text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .container {
   min-height: 100vh;
