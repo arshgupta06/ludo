@@ -1,0 +1,24 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 18 Sep 2020 20:08:42 at https://iqonic.design/themes/bizbag-html/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://iqonic.design/themes/bizbag-html/index.html -O1 "C:\My Web Sites\padhhigh-template" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:12:25	Warning: 	Retry after error 500 (Internal Server Error) at link https://iqonicthemes.com/wp-themes/bizbag_wp/demo-3/wp-content/uploads/sites/3/2019/05/15.png (from https://iqonic.design/themes/bizbag-html/home-3.html)
+20:12:25	Warning: 	Retry after error 500 (Internal Server Error) at link https://iqonicthemes.com/wp-themes/bizbag_wp/demo-3/wp-content/uploads/sites/3/2019/05/14.png (from https://iqonic.design/themes/bizbag-html/home-3.html)
+20:12:25	Warning: 	Retry after error 500 (Internal Server Error) at link https://iqonicthemes.com/wp-themes/bizbag_wp/demo-3/wp-content/uploads/sites/3/2019/05/13.png (from https://iqonic.design/themes/bizbag-html/home-3.html)
+20:12:25	Warning: 	File not parsed, looks like binary: https://iqonic.design/themes/bizbag-html/fonts/fa-brands-400.woff2
+20:12:26	Warning: 	File not parsed, looks like binary: https://iqonic.design/themes/bizbag-html/fonts/fa-regular-400.woff2
+20:12:26	Warning: 	File not parsed, looks like binary: https://iqonic.design/themes/bizbag-html/fonts/fa-solid-900.woff2
+20:12:27	Warning: 	File not parsed, looks like binary: https://iqonic.design/themes/bizbag-html/fonts/Flaticon.woff2
+20:12:27	Warning: 	Retry after error 500 () at link https://iqonicthemes.com/wp-themes/bizbag_wp/demo-3/wp-content/uploads/sites/3/2019/05/15.png (from https://iqonic.design/themes/bizbag-html/home-3.html)
+20:12:27	Warning: 	Retry after error 500 () at link https://iqonicthemes.com/wp-themes/bizbag_wp/demo-3/wp-content/uploads/sites/3/2019/05/14.png (from https://iqonic.design/themes/bizbag-html/home-3.html)
+20:12:27	Warning: 	Retry after error 500 () at link https://iqonicthemes.com/wp-themes/bizbag_wp/demo-3/wp-content/uploads/sites/3/2019/05/13.png (from https://iqonic.design/themes/bizbag-html/home-3.html)
+20:12:27	Error: 	"" (500) after 2 retries at link https://iqonicthemes.com/wp-themes/bizbag_wp/demo-3/wp-content/uploads/sites/3/2019/05/15.png (from https://iqonic.design/themes/bizbag-html/home-3.html)
+20:12:27	Error: 	"" (500) after 2 retries at link https://iqonicthemes.com/wp-themes/bizbag_wp/demo-3/wp-content/uploads/sites/3/2019/05/14.png (from https://iqonic.design/themes/bizbag-html/home-3.html)
+20:12:27	Error: 	"" (500) after 2 retries at link https://iqonicthemes.com/wp-themes/bizbag_wp/demo-3/wp-content/uploads/sites/3/2019/05/13.png (from https://iqonic.design/themes/bizbag-html/home-3.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 45 seconds : 271 links scanned, 261 files written (8920148 bytes overall) [5002310 bytes received at 22232 bytes/sec], 6297363 bytes transferred using HTTP compression in 112 files, ratio 34%, 44.1 requests per connection
+(3 errors, 10 warnings, 0 messages)
