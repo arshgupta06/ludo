@@ -39,128 +39,137 @@
       .hov {
          background-color: #24262b;
       }
-      body{
-  	/* font: normal 13px/20px Arial, Helvetica, sans-serif; word-wrap:break-word;
+
+      body {
+         /* font: normal 13px/20px Arial, Helvetica, sans-serif; word-wrap:break-word;
   	color: #eee; */
-  	/* background: #353535; */
-  }
-  #countdown{
-  	width: 465px;
-  	height: 112px;
-  	text-align: center;
-  	background: #222;
-  	background-image: -webkit-linear-gradient(top, #222, #333, #333, #222);
-  	background-image:    -moz-linear-gradient(top, #222, #333, #333, #222);
-  	background-image:     -ms-linear-gradient(top, #222, #333, #333, #222);
-  	background-image:      -o-linear-gradient(top, #222, #333, #333, #222);
-  	border: 1px solid #111;
-  	border-radius: 5px;
-  	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
-  	margin: auto;
-  	padding: 24px 0;
-  	position: relative;
-    top: 0; bottom: 0; left: 0; right: 0;
-  }
+         /* background: #353535; */
+      }
 
-  #countdown:before{
-  	content:"";
-  	width: 8px;
-  	height: 65px;
-  	background: #444;
-  	background-image: -webkit-linear-gradient(top, #555, #444, #444, #555);
-  	background-image:    -moz-linear-gradient(top, #555, #444, #444, #555);
-  	background-image:     -ms-linear-gradient(top, #555, #444, #444, #555);
-  	background-image:      -o-linear-gradient(top, #555, #444, #444, #555);
-  	border: 1px solid #111;
-  	border-top-left-radius: 6px;
-  	border-bottom-left-radius: 6px;
-  	display: block;
-  	position: relative;
-  	top: 48px; left: -10px;
-  }
+      #countdown {
+         width: 465px;
+         height: 112px;
+         text-align: center;
+         background: #222;
+         background-image: -webkit-linear-gradient(top, #222, #333, #333, #222);
+         background-image: -moz-linear-gradient(top, #222, #333, #333, #222);
+         background-image: -ms-linear-gradient(top, #222, #333, #333, #222);
+         background-image: -o-linear-gradient(top, #222, #333, #333, #222);
+         border: 1px solid #111;
+         border-radius: 5px;
+         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+         margin: auto;
+         padding: 24px 0;
+         position: relative;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+      }
 
-  #countdown:after{
-  	content:"";
-  	width: 8px;
-  	height: 65px;
-  	background: #444;
-  	background-image: -webkit-linear-gradient(top, #555, #444, #444, #555);
-  	background-image:    -moz-linear-gradient(top, #555, #444, #444, #555);
-  	background-image:     -ms-linear-gradient(top, #555, #444, #444, #555);
-  	background-image:      -o-linear-gradient(top, #555, #444, #444, #555);
-  	border: 1px solid #111;
-  	border-top-right-radius: 6px;
-  	border-bottom-right-radius: 6px;
-  	display: block;
-  	position: relative;
-  	top: 48px; right: -10px;
-  }
+      #countdown:before {
+         content: "";
+         width: 8px;
+         height: 65px;
+         background: #444;
+         background-image: -webkit-linear-gradient(top, #555, #444, #444, #555);
+         background-image: -moz-linear-gradient(top, #555, #444, #444, #555);
+         background-image: -ms-linear-gradient(top, #555, #444, #444, #555);
+         background-image: -o-linear-gradient(top, #555, #444, #444, #555);
+         border: 1px solid #111;
+         border-top-left-radius: 6px;
+         border-bottom-left-radius: 6px;
+         display: block;
+         position: relative;
+         top: 48px;
+         left: -10px;
+      }
 
-  #countdown #tiles{
-  	position: relative;
-  	z-index: 1;
-  }
+      #countdown:after {
+         content: "";
+         width: 8px;
+         height: 65px;
+         background: #444;
+         background-image: -webkit-linear-gradient(top, #555, #444, #444, #555);
+         background-image: -moz-linear-gradient(top, #555, #444, #444, #555);
+         background-image: -ms-linear-gradient(top, #555, #444, #444, #555);
+         background-image: -o-linear-gradient(top, #555, #444, #444, #555);
+         border: 1px solid #111;
+         border-top-right-radius: 6px;
+         border-bottom-right-radius: 6px;
+         display: block;
+         position: relative;
+         top: 48px;
+         right: -10px;
+      }
 
-  #countdown #tiles > span{
-  	width: 92px;
-  	max-width: 92px;
-  	font: bold 48px 'Droid Sans', Arial, sans-serif;
-  	text-align: center;
-  	color: #111;
-  	background-color: #ddd;
-  	background-image: -webkit-linear-gradient(top, #bbb, #eee);
-  	background-image:    -moz-linear-gradient(top, #bbb, #eee);
-  	background-image:     -ms-linear-gradient(top, #bbb, #eee);
-  	background-image:      -o-linear-gradient(top, #bbb, #eee);
-  	border-top: 1px solid #fff;
-  	border-radius: 3px;
-  	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
-  	margin: 0 7px;
-  	padding: 18px 0;
-  	display: inline-block;
-  	position: relative;
-  }
+      #countdown #tiles {
+         position: relative;
+         z-index: 1;
+      }
 
-  #countdown #tiles > span:before{
-  	content:"";
-  	width: 100%;
-  	height: 13px;
-  	background: #111;
-  	display: block;
-  	padding: 0 3px;
-  	position: absolute;
-  	top: 41%; left: -3px;
-  	z-index: -1;
-  }
+      #countdown #tiles>span {
+         width: 92px;
+         max-width: 92px;
+         font: bold 48px 'Droid Sans', Arial, sans-serif;
+         text-align: center;
+         color: #111;
+         background-color: #ddd;
+         background-image: -webkit-linear-gradient(top, #bbb, #eee);
+         background-image: -moz-linear-gradient(top, #bbb, #eee);
+         background-image: -ms-linear-gradient(top, #bbb, #eee);
+         background-image: -o-linear-gradient(top, #bbb, #eee);
+         border-top: 1px solid #fff;
+         border-radius: 3px;
+         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+         margin: 0 7px;
+         padding: 18px 0;
+         display: inline-block;
+         position: relative;
+      }
 
-  #countdown #tiles > span:after{
-  	content:"";
-  	width: 100%;
-  	height: 1px;
-  	background: #eee;
-  	border-top: 1px solid #333;
-  	display: block;
-  	position: absolute;
-  	top: 48%; left: 0;
-  }
+      #countdown #tiles>span:before {
+         content: "";
+         width: 100%;
+         height: 13px;
+         background: #111;
+         display: block;
+         padding: 0 3px;
+         position: absolute;
+         top: 41%;
+         left: -3px;
+         z-index: -1;
+      }
 
-  #countdown .labels{
-  	width: 100%;
-  	height: 25px;
-  	text-align: center;
-  	position: absolute;
-  	bottom: 8px;
-  }
+      #countdown #tiles>span:after {
+         content: "";
+         width: 100%;
+         height: 1px;
+         background: #eee;
+         border-top: 1px solid #333;
+         display: block;
+         position: absolute;
+         top: 48%;
+         left: 0;
+      }
 
-  #countdown .labels li{
-  	width: 102px;
-  	font: bold 15px 'Droid Sans', Arial, sans-serif;
-  	color: #f47321;
-  	text-shadow: 1px 1px 0px #000;
-  	text-align: center;
-  	text-transform: uppercase;
-  	display: inline-block;
-  }
+      #countdown .labels {
+         width: 100%;
+         height: 25px;
+         text-align: center;
+         position: absolute;
+         bottom: 8px;
+      }
+
+      #countdown .labels li {
+         width: 102px;
+         font: bold 15px 'Droid Sans', Arial, sans-serif;
+         color: #f47321;
+         text-shadow: 1px 1px 0px #000;
+         text-align: center;
+         text-transform: uppercase;
+         display: inline-block;
+      }
    </style>
 
 
@@ -207,6 +216,11 @@
 
                         </li>
                         <li class=" text-center">
+                           <a href="team-details.html">REVIEWS</a>
+                           <!-- drop down multilevel  -->
+
+                        </li>
+                        <li class=" text-center">
                            <a href="#iq-aboutus">ABOUT</a>
                            <!-- drop down multilevel  -->
 
@@ -216,11 +230,7 @@
                            <!-- drop down multilevel  -->
 
                         </li>
-                        <li class=" text-center">
-                           <a href="team-details.html">REVIEWS</a>
-                           <!-- drop down multilevel  -->
 
-                        </li>
 
                         <li class=" text-center">
                            <a href="#menifesto-section">MANIFESTO</a>
@@ -387,7 +397,8 @@
                      <div class="feature-number ">01</div>
                      <div class="feature-info">
                         <h4>Entrepreneurship </h4>
-                        <p class="mb-0">This course is highly interactive and helps to develop your business mindset as well as how to start a business from zero and scaling it to generate profit.
+                        <p class="mb-0">This course is highly interactive and helps to develop your business mindset as
+                           well as how to start a business from zero and scaling it to generate profit.
                         </p>
                      </div>
                   </div>
@@ -397,16 +408,19 @@
                      <div class="feature-info">
                         <h4>Money Management
                         </h4>
-                        <p class="mb-0">This course helps to learn how to manage your personal finances, that includes analyzing your spending habits, learning budgeting, maintaining assets and liabilities, and background on savings and investing options.
+                        <p class="mb-0">This course helps to learn how to manage your personal finances, that includes
+                           analyzing your spending habits, learning budgeting, maintaining assets and liabilities, and
+                           background on savings and investing options.
                         </p>
                      </div>
                   </div>
                   <div class="feature-box text- ">
                      <div class="feature-number ">03</div>
                      <div class="feature-info">
-                        <h4>Product and Brand Management
-                        </h4>
-                        <p class="mb-0">This course identifies the critical information needed to develop a product and brand strategy that generates both quick-wins and long-term value. You will also learn to create selling propositions to generate high profit.
+                        <h4>Product and Brand Management</h4>
+                        <p class="mb-0">This course identifies the critical information needed to develop a product and
+                           brand strategy that generates both quick-wins and long-term value. You will also learn to
+                           create selling propositions to generate high profit.
 
                         </p>
                      </div>
@@ -416,7 +430,9 @@
                      <div class="feature-info">
                         <h4>Digital Marketing
                         </h4>
-                        <p class="mb-0">This course will help you to learn Digital Marketing strategies, that is a fortune in business. Here you will learn A to Z about lead generation, social media marketing, sales funnels, copywriting techniques, and many more to grow your business online.
+                        <p class="mb-0">This course will help you to learn Digital Marketing strategies, that is a
+                           fortune in business. Here you will learn A to Z about lead generation, social media
+                           marketing, sales funnels, copywriting techniques, and many more to grow your business online.
 
 
 
@@ -433,7 +449,9 @@
                      <div class="feature-info">
                         <h4>Talent Management
                         </h4>
-                        <p class="mb-0">In this course, you will learn how to attract and recruit the best talents out there with some golden steps of hiring and identifying. Talent Management and retaining systems for your business makes a huge impact on efficiency and productivity.
+                        <p class="mb-0">In this course, you will learn how to attract and recruit the best talents out
+                           there with some golden steps of hiring and identifying. Talent Management and retaining
+                           systems for your business makes a huge impact on efficiency and productivity.
 
                         </p>
                      </div>
@@ -441,8 +459,10 @@
                   <div class="feature-box text- ">
                      <div class="feature-number ">06</div>
                      <div class="feature-info">
-                        <h4>CONSUMER BEHAVIOUR, PRICING AND MARKET RESEARCH</h4>
-                        <p class="mb-0">This course will be providing you with insights on how to deal with and read the minds of your potential customers with the help of market research so that you can make strategies to satisfy their desires and outshine in front of your competitors
+                        <h4>Consumer Behaviour, Pricing and Market Research</h4>
+                        <p class="mb-0">This course will be providing you with insights on how to deal with and read the
+                           minds of your potential customers with the help of market research so that you can make
+                           strategies to satisfy their desires and outshine in front of your competitors
 
                         </p>
                      </div>
@@ -451,7 +471,9 @@
                      <div class="feature-number ">07</div>
                      <div class="feature-info">
                         <h4>Strategic Management</h4>
-                        <p class="mb-0">In this course you'll learn the effectiveness of strategic management in running a business and attaining its goals. Strategic Management involves the formulation and implementation of the business plans for an organization.
+                        <p class="mb-0">In this course you'll learn the effectiveness of strategic management in running
+                           a business and attaining its goals. Strategic Management involves the formulation and
+                           implementation of the business plans for an organization.
 
                         </p>
                      </div>
@@ -803,14 +825,16 @@
                               style="font-weight: bolder;font-weight: bolder;font-size: 22px;color: black;font-family: oswald;}">
                               Business Building
                            </span1>
-                           <span2 style="font-size: 19px"> Learn how to describe, analyze, evolve any business and give platform advantage.
+                           <span2 style="font-size: 19px"> Learn how to describe, analyze, evolve any business and give
+                              platform advantage.
                         </span></span2>
                      </li>
                      <li><i class="ion ion-checkmark-circled"></i><span>
                            <span1
                               style="font-weight: bolder;font-weight: bolder;font-size: 22px;color: black;font-family: oswald;}">
                               Management skills </span1>
-                           <span2 style="font-size: 19px">Learn everything from managing funds to managing people, internal factors to external, that affect business.
+                           <span2 style="font-size: 19px">Learn everything from managing funds to managing people,
+                              internal factors to external, that affect business.
 
                         </span></span2>
                      </li>
@@ -818,7 +842,8 @@
                            <span1
                               style="font-weight: bolder;font-weight: bolder;font-size: 22px;color: black;font-family: oswald;}">
                               Hand full of knowledge </span1>
-                           <span2 style="font-size: 19px">Get a dip into the vast pool of knowledge and get yourself ready to enter into the business world with the right set of skills.
+                           <span2 style="font-size: 19px">Get a dip into the vast pool of knowledge and get yourself
+                              ready to enter into the business world with the right set of skills.
                         </span></span2>
                      </li>
                      <li><i class="ion ion-checkmark-circled"></i><span>
@@ -835,7 +860,8 @@
                            <span1
                               style="font-weight: bolder;font-weight: bolder;font-size: 22px;color: black;font-family: oswald;}">
                               Innovative skills</span1>
-                           <span2 style="font-size: 19px"> Innovation and creativity is the backbone of any business to sustain for longer and here you will get to develop those skills.
+                           <span2 style="font-size: 19px"> Innovation and creativity is the backbone of any business to
+                              sustain for longer and here you will get to develop those skills.
 
                         </span></span2>
                      </li>
@@ -844,7 +870,8 @@
                               style="font-weight: bolder;font-weight: bolder;font-size: 22px;color: black;font-family: oswald;}">
                               Certification
                            </span1>
-                           <span2 style="font-size: 19px">At the end of the course you will be having six valuable certificates with you to prove your worth.
+                           <span2 style="font-size: 19px">At the end of the course you will be having six valuable
+                              certificates with you to prove your worth.
 
                         </span></span2>
                      </li>
@@ -853,7 +880,8 @@
                               style="font-weight: bolder;font-weight: bolder;font-size: 22px;color: black;font-family: oswald;}">
                               Surprise Gift
                            </span1>
-                           <span2 style="font-size: 19px">What is more exciting than a surprise gift and we have gifts for all our students.
+                           <span2 style="font-size: 19px">What is more exciting than a surprise gift and we have gifts
+                              for all our students.
 
 
                         </span></span2>
@@ -955,8 +983,8 @@
 
 
 
-<!-- countdown -->
-<!-- <div id="countdown">
+      <!-- countdown -->
+      <!-- <div id="countdown">
   <div id='tiles'></div>
   <div class="labels">
     <li>Days</li>
@@ -970,7 +998,7 @@
 <br>
 <br>
 <br> -->
-<!-- countdown End -->
+      <!-- countdown End -->
 
 
 
@@ -1132,7 +1160,8 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-6" style="text-align:center; padding-top:2.5em;">
-                  <h3 class="subscribe-heading"><i class="fa fa-connectdevelop fa-5x" aria-hidden="true" style="color:#ffb100;"></i> GET IN TOUCH....</h3>
+                  <h3 class="subscribe-heading"><i class="fa fa-connectdevelop fa-5x" aria-hidden="true"
+                        style="color:#ffb100;"></i> GET IN TOUCH</h3>
                </div>
                <div class="col-sm-6">
                   <div class="form-fields">
@@ -1234,44 +1263,44 @@
    <!--End of Tawk.to Script-->
    <!--End of Tawk.to Script-->
 
-<!-- countdown js -->
-<script type="text/javascript">
-var target_date = new Date().getTime() + (1000*3600*48); // set the countdown date
-var days, hours, minutes, seconds; // variables for time units
+   <!-- countdown js -->
+   <script type="text/javascript">
+      var target_date = new Date().getTime() + (1000 * 3600 * 48); // set the countdown date
+      var days, hours, minutes, seconds; // variables for time units
 
-var countdown = document.getElementById("tiles"); // get tag element
+      var countdown = document.getElementById("tiles"); // get tag element
 
-getCountdown();
+      getCountdown();
 
-setInterval(function () { getCountdown(); }, 1000);
+      setInterval(function () { getCountdown(); }, 1000);
 
-function getCountdown(){
+      function getCountdown() {
 
-  // find the amount of "seconds" between now and target
-  var current_date = new Date().getTime();
-  var seconds_left = (target_date - current_date) / 1000;
+         // find the amount of "seconds" between now and target
+         var current_date = new Date().getTime();
+         var seconds_left = (target_date - current_date) / 1000;
 
-  days = pad( parseInt(seconds_left / 86400) );
-  seconds_left = seconds_left % 86400;
+         days = pad(parseInt(seconds_left / 86400));
+         seconds_left = seconds_left % 86400;
 
-  hours = pad( parseInt(seconds_left / 3600) );
-  seconds_left = seconds_left % 3600;
+         hours = pad(parseInt(seconds_left / 3600));
+         seconds_left = seconds_left % 3600;
 
-  minutes = pad( parseInt(seconds_left / 60) );
-  seconds = pad( parseInt( seconds_left % 60 ) );
+         minutes = pad(parseInt(seconds_left / 60));
+         seconds = pad(parseInt(seconds_left % 60));
 
-  // format countdown string + set tag value
-  countdown.innerHTML = "<span>" + days + "</span><span>" + hours + "</span><span>" + minutes + "</span><span>" + seconds + "</span>";
-}
+         // format countdown string + set tag value
+         countdown.innerHTML = "<span>" + days + "</span><span>" + hours + "</span><span>" + minutes + "</span><span>" + seconds + "</span>";
+      }
 
-function pad(n) {
-  return (n < 10 ? '0' : '') + n;
-}
-</script>
+      function pad(n) {
+         return (n < 10 ? '0' : '') + n;
+      }
+   </script>
 
 
 
-<!-- countdown js end -->
+   <!-- countdown js end -->
    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
    <script src="js/jquery-1.11.1.min.js"></script>
